@@ -21,7 +21,7 @@ A virtual pet game built with React and Vite where you can take care of your own
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/nyxsky404/Vibe-Coding.git
 ```
 
 2. Navigate to the project directory:
