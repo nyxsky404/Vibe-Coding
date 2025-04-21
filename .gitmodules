@@ -1,0 +1,4 @@
+[submodule "pixel-pet"]
+	path = pixel-pet
+	url = https://github.com/nyxsky404/Pixel-Pet.git
+	branch = main
