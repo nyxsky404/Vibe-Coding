@@ -1,12 +1,95 @@
-# React + Vite
+# Pixel Pet 🐱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A virtual pet game built with React and Vite where you can take care of your own digital companion. Watch your pet's moods change as you interact with it through feeding, playing, and managing its sleep schedule.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Real-time Status Monitoring**: Keep track of your pet's hunger, happiness, and energy levels
+- **Interactive Controls**: Feed, play, and manage your pet's sleep schedule
+- **Persistent State**: Your pet's status is saved in localStorage, so it remembers its state between sessions
+- **Dynamic Mood System**: Pet's expression changes based on its overall well-being
+- **Responsive Design**: Works well on both desktop and mobile devices
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (version 14.0.0 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+```
+
+2. Navigate to the project directory:
+```bash
+cd pixel-pet
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+### Running the Application
+
+To start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+To build for production:
+```bash
+npm run build
+```
+
+## How to Play
+
+- **Feed**: Click the "Feed" button to increase your pet's hunger meter
+- **Play**: Interact with your pet to boost its happiness (requires sufficient energy)
+- **Sleep**: Toggle sleep mode to help your pet recover energy
+
+## Technical Stack
+
+- React 19
+- Vite 6
+- CSS3 for styling
+- Local Storage for state persistence
+
+## Project Structure
+
+```plaintext
+pixel-pet/
+├── src/
+│   ├── components/
+│   │   └── PixelPet.jsx
+│   ├── styles/
+│   │   └── PixelPet.css
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+├── public/
+├── index.html
+└── package.json
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- Built with React and Vite
+- Uses emoji for pet expressions
+- Inspired by classic virtual pet games
+```
