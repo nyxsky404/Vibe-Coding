@@ -1,6 +1,6 @@
 # Vibe-Coding
 
-A template repository containing various coding projects and examples for modern web development. This repository is designed to be a starting point for your projects, showcasing best practices and project structures.
+A template repository containing various vibe coding projects while exploring different AI-powered IDEs (Integrated Development Environments). This repository is designed to serve as a starting point for your projects, showcasing how AI can assist in building them.
 
 ## 📋 Repository Structure
 
@@ -17,7 +17,7 @@ Vibe-Coding/
 
 ### Submodules
 
-- **Pixel-Pet**: A React-based virtual pet project built with Vite. This project showcases modern React patterns with a playful interface.
+- **Pixel-Pet**: A React-based virtual pet project built with Vite. This project showcases React patterns with a playful interface.
 
 ## 🚀 Getting Started
 
